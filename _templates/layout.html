@@ -1,0 +1,18 @@
+{# custom_layout.html - Extend default Sphinx HTML layout for Trend Micro Activation Guide #}
+
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+    <meta name="google-site-verification" content="SfOIuzL9bJTnG1s15n1tw8mrW8WlYZXf4LA0cdqffuM" />
+    <meta name="msvalidate.01" content="671DFC03B959E91643B7D7567E37E46A" />
+
+    <meta name="description" content="Activate your Trend Micro security software using the official www.trendmicro.com.au/activate page. Enter your activation code, download the installer, and complete setup for full protection on Windows, Mac, or mobile." />
+
+    <meta name="keywords" content="www.trendmicro.com.au/activate, Trend Micro activation code, activate Trend Micro, Trend Micro setup, Trend Micro download, Trend Micro Australia" />
+
+    <meta name="robots" content="index, follow" />
+
+    <title>Activate Trend Micro at www.trendmicro.com.au/activate – Complete Setup Guide</title>
+
+    {{ super() }}
+{% endblock %}
