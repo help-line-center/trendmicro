@@ -10,9 +10,9 @@ import sys
 
 # -- Project information -----------------------------------------------------
 
-project = 'SYW AccountOnline Login Guide'
-copyright = '2025, SYW'
-author = 'SYW Support Team'
+project = 'Trend Micro Activation Guide'
+copyright = '2025, Trend Micro'
+author = 'Trend Micro Support Team'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
@@ -35,8 +35,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # html_theme = 'sphinx_rtd_theme'
 
 # Basic page info
-html_title = "How to Login to Syw.accountonline.com – Complete Guide (2025)"
-html_short_title = "SYW Login Guide"
+html_title = "How to Activate Trend Micro – Complete Setup Guide"
+html_short_title = "Trend Micro Activation"
 html_favicon = 'favicon.ico'  # Place the file in the _static or root folder
 
 # Hide "View page source"
