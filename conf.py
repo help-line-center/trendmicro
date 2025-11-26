@@ -26,29 +26,29 @@ extensions = []
 raw_enabled = True
 
 # Templates and patterns to ignore
-templates_path = ['_templates']
+templates_path = ['_templates']  # Uncomment if using custom templates
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
 
-# Theme (optional)
+# Theme (you can switch to 'sphinx_rtd_theme' or another as needed)
 # html_theme = 'sphinx_rtd_theme'
 
-# Page titles
+# Basic page info
 html_title = "How to Activate Trend Micro – Complete Setup Guide"
 html_short_title = "Trend Micro Activation"
-html_favicon = 'favicon.ico'  # Place the icon in _static or root
+html_favicon = 'favicon.ico'  # Place the file in the _static or root folder
 
-# Hide "view source"
+# Hide "View page source"
 html_show_sourcelink = False
 
-# Allow raw HTML inside .rst files
+# Allow unsafe raw HTML in .rst files
 html_allow_unsafe = True
 
-# Theme settings
+# Theme customization
 html_theme_options = {
     'show_powered_by': False,
 }
 
-# Static files (uncomment if needed)
+# Static assets (uncomment if you have them)
 # html_static_path = ['_static']
